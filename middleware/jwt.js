@@ -23,7 +23,6 @@ const createToken = (user) => {
       },
       secretKey,
       {
-        expiresIn: "3h",
         algorithm: "HS256",
       }
     );
