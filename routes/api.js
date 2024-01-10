@@ -97,6 +97,7 @@ import {
 } from "../controller/notificationController.js";
 
 import "../middleware/passport.js";
+import uploadCloud from "../config/cloudinary.config.js";
 
 const router = express.Router();
 // @param {*} app: express app
